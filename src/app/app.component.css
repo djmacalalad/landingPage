@@ -1,0 +1,39 @@
+.header{
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 0;
+    background-color: #4432c9;
+}
+.header .left-header{
+    width: 20%;
+    margin-top: 7px;
+}
+.header .left-header p{
+    text-decoration: none;
+    margin: 0 20px;
+    color: #1F1667;
+    font-size: 18px;
+}
+.header .right-header{
+    width: 80%;
+    text-align: right;
+    margin-top: 7px;
+}
+.header .right-header ul{
+    display: inline-flex;
+    list-style: none;
+    margin: 0 10px;
+}
+.right-header li a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+.right-header li a:hover{
+    color: #3DD0D2;
+}

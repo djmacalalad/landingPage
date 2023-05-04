@@ -1,0 +1,24 @@
+:host .modal-header{
+    color: #002C75;
+}
+.modal-body .login-form-container{
+    width: 80%;
+    margin-left: 10%;
+    padding: 20px 0;
+}
+.modal-body .login-form-container input{
+    width: 100%;
+    padding: 10px 20px;
+}
+.modal-body .login-form-container #username-input, #password-input{
+    margin-bottom: 20px;
+}
+.modal-footer p a{
+    text-decoration: none;
+    color: #002C75;
+    cursor: pointer;
+}
+.modal-footer p a:hover{
+    text-decoration: none;
+    color: #004bc5;
+}
