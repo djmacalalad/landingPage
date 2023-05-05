@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./landing-page.component.css']
 })
 export class LandingPageComponent {
-  showModal () {
 
+  displayModal:Boolean = false;
+
+  showModal () {
+    this.displayModal = true;
   }
 }

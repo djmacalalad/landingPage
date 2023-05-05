@@ -6,6 +6,7 @@ import { LoginModalComponent } from './login-modal/login-modal.component';
 import { SignupModalComponent } from './signup-modal/signup-modal.component';
 import { ButtonModule } from 'primeng/button'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DialogModule } from 'primeng/dialog';
  
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     AppRoutingModule,
     ButtonModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    DialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
