@@ -27,7 +27,7 @@
     text-align: justify;
     line-height: 150%;
 }
-.body-container .left-column button{
+/* .body-container .left-column button{
     margin-top: 20px;
     padding: 10px 50px;
     background-color: #002C75;
@@ -41,28 +41,4 @@
 .body-container .left-column button:hover{
     background-color: #0242aa;
     color: #fff;
-}
-
-/* Size-Responsiveness */
-@media screen and (max-width: 768px) {
-    .header{
-        background-color: #1F1667;
-    }
-    .header .left-header p{
-        color: #fff;
-    }
-    .body-container .left-column{
-        width: 80vw;
-        height: 60%;
-        margin: 20% 0 0 10vw;
-    }
-    .body-container .left-column h1{
-        font-size: 25px;
-    }
-    .body-container .left-column p{
-        font-size: 16px;
-    }
-    .body-container .left-column button{
-        padding: 8px 40px;
-    }
-}
+} */
