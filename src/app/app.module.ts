@@ -7,6 +7,8 @@ import { SignupModalComponent } from './signup-modal/signup-modal.component';
 import { ButtonModule } from 'primeng/button'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DialogModule } from 'primeng/dialog';
+import { InputTextModule } from 'primeng/inputtext';
+import { PasswordModule } from 'primeng/password';
  
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { DialogModule } from 'primeng/dialog';
     AppRoutingModule,
     ButtonModule,
     BrowserAnimationsModule,
-    DialogModule
+    DialogModule,
+    InputTextModule,
+    PasswordModule
   ],
   providers: [],
   bootstrap: [AppComponent]
