@@ -1,23 +1,22 @@
 <div class="body-container">
     <div class="left-column">
         <h1>Employee Management System</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suscipit tellus mauris a diam maecenas sed enim. Ultricies leo integer malesuada nunc. Adipiscing elit pellentesque habitant morbi tristique senectus et netus. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Amet dictum sit amet justo donec enim. Ullamcorper a lacus vestibulum sed. Phasellus egestas tellus rutrum tellus.</p>
-        <p-button styleClass="login-button" (click)= "showModal()" label="LOGIN"></p-button>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Suscipit tellus mauris a diam maecenas sed enim. Ultricies leo integer malesuada nunc.
+            Adipiscing elit pellentesque habitant morbi tristique senectus et netus. Rutrum tellus pellentesque eu
+            tincidunt tortor aliquam. Amet dictum sit amet justo donec enim. Ullamcorper a lacus vestibulum sed.
+            Phasellus egestas tellus rutrum tellus.</p>
+        <p-button styleClass="login-button" (click)="showModal()" label="LOGIN"></p-button>
     </div>
 </div>
 
-<p-dialog
-    styleClass="login-modal" 
-    [(visible)]="displayModal"
-    [modal]="true" 
-    [draggable]="false"
-    [breakpoints]="{ '960px': '75vw' }"
-    header="LOGIN">
+<p-dialog styleClass="login-modal" [(visible)]="displayModal" [modal]="true" [draggable]="false"
+    [breakpoints]="{ '960px': '75vw' }" header="LOGIN">
 
     <form class="login-form">
         <div class="username-container">
             <label htmlFor="username">Username</label>
-            <input id="username" type="text" pInputText formControlName="text"/>
+            <input id="username" type="text" pInputText formControlName="text" />
         </div>
         <div class="password-container">
             <label htmlFor="username">Password</label>
