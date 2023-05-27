@@ -1,1 +1,15 @@
-<h3>Departments</h3>
+<div class="wrapper">
+    <app-sidebar></app-sidebar>
+
+    <div class="main-content" [class.is-active]="toggleService.toggleState">
+        <!-- header -->
+        <app-header></app-header>
+ 
+        <div class="body-content">
+            <h2>Departments</h2>
+        </div>
+
+    </div>
+
+    <router-outlet></router-outlet>
+</div>

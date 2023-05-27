@@ -1,0 +1,36 @@
+.header {
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 0;
+    background-color: #fff;
+}
+
+.header .left-header {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.header .left-header ol {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0 5px;
+    color: #000;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-btn {
+    border: none;
+    background: none;
+    color: #000;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 2px;
+}
+
+.header .menu-btn i{
+    font-size: 25px;
+}

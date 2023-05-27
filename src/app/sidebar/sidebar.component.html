@@ -1,0 +1,21 @@
+<div class="sidebar" [class.is-active]="toggleService.toggleState">
+
+    <div class="logo">
+        <img src="assets/images/logo.png" alt="logo" />
+        <h1 class="username">REDEFINE</h1>
+    </div>
+
+    <div class="user">
+        <img src="assets/images/avatar.png" alt="avatar" />
+        <p-panelMenu [model]="items" [style]="{'width':'100%'}" [multiple]="true"></p-panelMenu>
+    </div>
+
+    <div class="menu">
+        <ul>
+            <li><a routerLink="/home" routerLinkActive="active"><i class="pi pi-home"></i> Home</a></li>
+            <li><a routerLink="/departments" routerLinkActive="active"><i class="pi pi-sitemap"></i> Departments</a></li>
+            <li id="menulast"><a routerLink="/employees" routerLinkActive="active"><i class="pi pi-users"></i> Employees</a></li>
+        </ul>
+    </div>
+
+</div>

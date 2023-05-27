@@ -1,0 +1,15 @@
+<form class="login-form">
+    <div class="username-container">
+        <label htmlFor="username">Username</label>
+        <input id="username" type="text" pInputText formControlName="text" />
+    </div>
+    <div class="password-container">
+        <label htmlFor="username">Password</label>
+        <p-password id="password" formControlName="value" [feedback]="false"></p-password>
+    </div>
+</form>
+
+<div class="modal-footer">
+    <!-- <p-button label="LOGIN" (click)="openHomePage()"></p-button> -->
+    <p-button label="LOGIN" (click)="openHomePage()"></p-button>
+</div>

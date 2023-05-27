@@ -1,0 +1,156 @@
+.sidebar {
+    display: none;
+    height: 100vh;
+    width: 270px;
+    left: -270px;
+    background: #002C75;
+    color: #fff;
+    position: relative;
+}
+
+.sidebar.is-active {
+    display: block;
+    left: 0;
+    transition: all 2000ms ease;
+}
+
+.sidebar .logo,
+.user,
+.menu {
+    width: 100%;
+}
+
+/* --------------------logo section---------------- */
+
+.sidebar .logo {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    position: relative;
+    justify-content: center;
+    padding: 10px;
+}
+
+.sidebar .logo img {
+    height: 30px;
+}
+
+.sidebar .logo h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+/* --------------------user section---------------- */
+
+.sidebar .user {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.sidebar .user img {
+    width: 20%;
+}
+
+.sidebar .user .username {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.sidebar .user .username i {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+/* user options */
+
+:host ::ng-deep .p-panel {
+    text-align: center !important;
+    align-items: center !important;
+}
+
+:host ::ng-deep .p-panelmenu .p-panelmenu-header>a {
+    background: none !important;
+    border: none !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    padding-left: 60px !important;
+}
+
+:host ::ng-deep .p-panelmenu .p-panelmenu-header>a:focus {
+    box-shadow: none !important;
+    border-radius: none !important;
+}
+
+:host ::ng-deep .p-panelmenu .p-panelmenu-header>a:hover {
+    background-color: #003892 !important;
+    border-radius: none !important;
+}
+
+:host ::ng-deep .pi-chevron-down,
+:host ::ng-deep .pi-chevron-right {
+    display: none;
+}
+
+:host ::ng-deep .pi-cog {
+    order: 1;
+    margin-left: 5px;
+}
+
+:host ::ng-deep .p-panelmenu .p-panelmenu-content {
+    background: none !important;
+    border: none !important;
+}
+
+:host ::ng-deep .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link:not(.p-disabled):hover {
+    background-color: #003892 !important;
+}
+
+:host ::ng-deep .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link:focus {
+    box-shadow: none !important;
+}
+
+:host ::ng-deep .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link {
+    padding-left: 60px !important;
+}
+
+:host ::ng-deep .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link .p-menuitem-text {
+    color: #fff !important;
+}
+
+:host ::ng-deep .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link .p-menuitem-icon {
+    color: #fff !important;
+}
+
+/* --------------------menu section---------------- */
+
+.sidebar .menu {
+    margin-top: 35px;
+}
+
+.sidebar .menu li {
+    list-style: none;
+    border-top: 1px solid #003892;
+}
+
+.sidebar .menu #menulast {
+    border-bottom: 1px solid #003892;
+}
+
+.sidebar .menu li:hover {
+    background-color: #003892;
+}
+
+.sidebar .menu li a {
+    text-decoration: none;
+    padding: 15px 50px;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+.sidebar .menu li a.active {
+    color: #3dc8cd;
+}

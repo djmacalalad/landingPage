@@ -27,50 +27,17 @@
     text-align: justify;
     line-height: 150%;
 }
-/* login button */
-:host >>> .login-button{
+:host >>> .body-container .left-column .p-button{
     margin-top: 20px;
 }
 /* login modal */
-:host >>> .login-modal{
-    width: 35vw;
-    min-height: 30vh;
+::ng-deep .p-dynamic-dialog{
+    min-width: 35vw;
+    min-height: 40vh;
 }
 /* modal header */
-:host ::ng-deep .p-dialog-title{
+::ng-deep .p-dialog-title{
     width: 100%;
     text-align: center;
     margin-left: 20px;
 }
-/* modal footer */
-:host ::ng-deep .p-dialog-footer{
-    width: 100%;
-    text-align: center;
-}
-/* login-form */
-:host >>> .login-modal .login-form{
-    width: 80%;
-    margin-left: 10%;
-}
-:host >>> .login-modal .login-form .username-container{
-    font-size: 18px;
-    padding: 5px 0 0;
-}
-:host >>> .login-modal .login-form .password-container{
-    font-size: 18px;
-    padding: 5px 0 0;
-}
-:host >>> .login-modal .login-form .p-inputtext{
-    width: 100%;
-    margin: 5px 0;
-}
-:host >>> .login-modal .login-form .p-password{
-    width: 100%;
-}
-
-/* change close-icon color */
-/*
-:host ::ng-deep .p-dialog-header-close-icon {
-    color: red;
-    font-size: 2rem;
-} */
